@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
 
 html, body {
   margin: 0;
@@ -10,7 +9,7 @@ html, body {
 
 header {
   width: 100%;
-  background-color: #B57737;
+  background-color: rgb(218, 79, 107);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +27,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  background-color: #E89847;
+  background-color: rgb(152, 214, 214);
   flex: 1;
 }
 
@@ -162,14 +161,17 @@ ul h2 {
   font-size: 25px;
   padding: 5px 15px;
   box-sizing: border-box;
-  background-color: #56a23f;
+  background-color: rgb(218, 79, 107);
   color: white;
 }
 
 .add-btn:hover, .list-btn:hover {
-  background-color: #4C8F38;
+  background-color: rgb(218, 79, 107);
 }
 
 .add-btn {
   margin-left: 5px;
 }
+
+
+    }
