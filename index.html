@@ -1,181 +1,332 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dissertation Planner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Dissertation Planner</h1>
-    </header>
 
-    <main>
-      <div class="new-list">
-        <form>
-          <input type="text" name="title" placeholder="Create a list" autocomplete="off" wrap="soft">
+<head>
+  <meta charset="utf-8">
+  <title>Dissertation Planner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-          <button type="submit" class="btn list-btn">
-            Create
-          </button>
-        </form>
+<body>
+
+
+  <header>
+    <h1>Dissertation Planner</h1>
+  </header>
+
+  <main>
+    <div class="new-list">
+      <form>
+        <input type="text" name="title" placeholder="Create a list" autocomplete="off" wrap="soft">
+
+        <button type="submit" class="btn list-btn">
+          Create
+        </button>
+      </form>
+    </div>
+
+    <div class="all-lists">
+      <div class="list">
+        <div class="list-header">
+          <h2>Planned </h2>
+        </div>
+
+        <ul>
+          <div class="item">
+            <li>Research Outline</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Literature Review</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Methodology and ethics</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data collection</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data Analysis</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Write up the dissertation</li>
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+        </ul>
+
+        <div class="tools">
+          <form>
+            <input type="text" placeholder="Add item">
+            <button type="submit" class="btn add-btn">Add</button>
+          </form>
+        </div>
       </div>
 
-      <div class="all-lists">
-        <div class="list">
-          <div class="list-header">
-            <h2>Planned </h2>
-          </div>
-
-          <ul>
-            <div class="item">
-              <li>Research Outline</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="item">
-              <li>Literature Review</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="item">
-              <li>Methodology and ethics</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="item">
-              <li>Data collection</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="item">
-              <li>Data Analysis</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="item">
-              <li>Write up the dissertation</li>
-
-              <div>
-                <button class="btn edit-btn">
-                    <i class="fa fa-pencil"></i>
-                </button>
-              </div>
-            </div>
-          </ul>
-
-          <div class="tools">
-            <form>
-              <input type="text" placeholder="Add item">
-              <button type="submit" class="btn add-btn">Add</button>
-            </form>
-          </div>
+      <div class="list">
+        <div class="list-header">
+          <h2>In-Progress</h2>
         </div>
 
-        <div class="list">
-          <div class="list-header">
-            <h2>In Progress</h2>
+        <ul>
+          <div class="item">
+            <li>Research Outline</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
           </div>
 
-          <ul>
-            <div class="item">
-              <li></li>
+          <div class="item">
+            <li>Literature Review</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
-            <div class="item">
-              <li></li>             
-            </div>
-            <div class="item">
-              <li></li>            
-            </div>
-            <div class="item">
-              <li></li>          
-            </div>
-            <div class="item">
-              <li></li>            
-            </div>
-            <div class="item">
-              <li></li>            
-            </div>
-          </ul>       
-        </div>
-        <div class="list">
-          <div class="list-header">
-            <h2>Completed</h2>
           </div>
-          <ul>
-            <div class="item">
-              <li></li>             
+
+          <div class="item">
+            <li>Methodology and ethics</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
-            <div class="item">
-              <li></li>           
+          </div>
+
+          <div class="item">
+            <li>Data collection</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
-            <div class="item">
-              <li></li>           
+          </div>
+
+          <div class="item">
+            <li>Data Analysis</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
-            <div class="item">
-              <li></li>           
+          </div>
+
+          <div class="item">
+            <li>Write up the dissertation</li>
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
-            <div class="item">
-                <li></li>              
-              </div>
-            <div class="item">
-              <li></li>             
-            </div>
-          </ul>        
+          </div>
+        </ul>
+
+        <div class="tools">
+          <form>
+            <input type="text" placeholder="Add item">
+            <button type="submit" class="btn add-btn">Add</button>
+          </form>
         </div>
       </div>
       <div class="list">
         <div class="list-header">
-          <h2>Need to Revisit</h2>
+          <h2>On Hold/Need to Revisit</h2>
         </div>
+
         <ul>
           <div class="item">
-            <li></li>            
-          </div>
-          <div class="item">
-            <li></li>          
-          </div>
-          <div class="item">
-            <li></li>         
-          </div>
-          <div class="item">
-            <li></li>        
-          </div>
-          <div class="item">
-              <li></li>
+            <li>Research Outline</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
             </div>
+          </div>
+
           <div class="item">
-            <li></li>   
+            <li>Literature Review</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Methodology and ethics</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data collection</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data Analysis</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Write up the dissertation</li>
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
           </div>
         </ul>
+
+        <div class="tools">
+          <form>
+            <input type="text" placeholder="Add item">
+            <button type="submit" class="btn add-btn">Add</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="list-header">
+          <h2>Done </h2>
+        </div>
+
+        <ul>
+          <div class="item">
+            <li>Research Outline</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Literature Review</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Methodology and ethics</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data collection</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Data Analysis</li>
+
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <li>Write up the dissertation</li>
+            <div>
+              <button class="btn edit-btn">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+          </div>
+        </ul>
+
+        <div class="tools">
+          <form>
+            <input type="text" placeholder="Add item">
+            <button type="submit" class="btn add-btn">Add</button>
+          </form>
+        </div>
       </div>
     </div>
-    </main>
-  </body>
+
+
+  </main>
+
+
+</body>
+
 </html>
